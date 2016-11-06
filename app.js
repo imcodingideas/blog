@@ -50,10 +50,10 @@ app.post('/blogs', function (req, res) {
        if(err){
            res.render('new');
        } else {
+           //redirect
            res.redirect('blogs');
        }
     });
-    //redirect
 });
 
 
